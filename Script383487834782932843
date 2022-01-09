@@ -1,0 +1,942 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("ScrollingFrame")
+-------------------------------------------------------------------------------------
+local TextLabel = Instance.new("TextLabel")
+local TextLabel2 = Instance.new("TextLabel")
+local TextLabel3 = Instance.new("TextLabel")
+--"TextLabels" After are actually TextButtons
+--Fake JJSploit
+local TextLabel4 = Instance.new("TextButton")
+-------------------------------------------------------------------------------------
+local TextLabel5 = Instance.new("TextButton")
+local TextLabel6 = Instance.new("TextButton")
+local TextLabel7 = Instance.new("TextButton")
+local TextLabel8 = Instance.new("TextButton")
+local TextLabel9 = Instance.new("TextButton")
+local TextLabel1b = Instance.new("TextButton")
+local TextLabel2b = Instance.new("TextButton")
+local TextLabel3b = Instance.new("TextButton")
+local TextLabel4b = Instance.new("TextButton")
+local TextLabel5b = Instance.new("TextButton")
+local TextLabel6b = Instance.new("TextButton")
+local TextLabel7b = Instance.new("TextButton")
+local TextLabel8b = Instance.new("TextButton")
+local TextLabel9b = Instance.new("TextButton")
+local TextLabel1c = Instance.new("TextButton")
+local TextLabel2c = Instance.new("TextButton")
+local TextLabel3c = Instance.new("TextButton")
+local TextLabel4c = Instance.new("TextButton")
+local TextLabel5c = Instance.new("TextButton")
+local TextLabel6c = Instance.new("TextButton")
+local TextLabel7c = Instance.new("TextButton")
+local TextLabel8c = Instance.new("TextButton")
+local TextLabel9c = Instance.new("TextButton")
+local TextLabel1d = Instance.new("TextButton")
+local TextLabel2d = Instance.new("TextButton")
+local TextLabel3d = Instance.new("TextButton")
+local TextLabel4d = Instance.new("TextButton")
+local TextLabel5d = Instance.new("TextButton")
+local TextLabel6d = Instance.new("TextButton")
+local TextLabel7d = Instance.new("TextButton")
+local TextLabel8d = Instance.new("TextButton")
+local TextLabel9d = Instance.new("TextButton")
+local TextLabel1e = Instance.new("TextButton")
+local TextLabel2e = Instance.new("TextButton")
+local TextLabel3e = Instance.new("TextButton")
+local TextLabel4e = Instance.new("TextButton")
+local TextLabel5e = Instance.new("TextButton")
+local TextLabel6e = Instance.new("TextButton")
+local TextLabel7e = Instance.new("TextButton")
+local TextLabel8e = Instance.new("TextButton")
+local TextLabel9e = Instance.new("TextButton")
+local TextLabel1f = Instance.new("TextButton")
+local TextLabel2f = Instance.new("TextButton")
+local TextLabel3f = Instance.new("TextButton")
+local TextLabel4f = Instance.new("TextButton")
+local TextLabel5f = Instance.new("TextButton")
+local TextLabel6f = Instance.new("TextButton")
+local TextLabel7f = Instance.new("TextButton")
+local TextLabel8f = Instance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(103, 103, 103)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(0.817, 0, 0.605, 44)
+Frame.Size = UDim2.new(0, 294, 0, 253)
+Frame.Visible = true
+Frame.Active = true
+Frame.Draggable = false
+
+TextLabel.Parent = Frame
+TextLabel.Position = UDim2.new{0, 0},{0, 0}
+TextLabel.BackgroundColor3 = Color3.fromRGB(145, 1, 4)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 2
+TextLabel.Size = UDim2.new(0, 283, 0, 23)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Ninja Simulator GUI"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextLabel2.Parent = Frame
+TextLabel2.Position = UDim2.new(-0.002, 0, 0.017, 0)
+TextLabel2.BackgroundColor3 = Color3.fromRGB(90, 1, 4)
+TextLabel2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2.BorderSizePixel = 2
+TextLabel2.Size = UDim2.new(0, 142, 0, 24)
+TextLabel2.Font = Enum.Font.SourceSans
+TextLabel2.Text = "Teleports"
+TextLabel2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel2.TextSize = 14.000
+
+TextLabel3.Parent = Frame
+TextLabel3.Position = UDim2.new(-0.002, 142, 0.017, 0)
+TextLabel3.BackgroundColor3 = Color3.fromRGB(90, 1, 4)
+TextLabel3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel3.BorderSizePixel = 2
+TextLabel3.Size = UDim2.new(0, 139, 0, 24)
+TextLabel3.Font = Enum.Font.SourceSans
+TextLabel3.Text = "Other"
+TextLabel3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel3.TextSize = 14.000
+
+TextLabel4.Name = "FakeJJSploit"
+TextLabel4.Parent = Frame
+TextLabel4.Position = UDim2.new(-0.002, 108, 0.017, 26)
+TextLabel4.BackgroundColor3 = Color3.fromRGB(90, 1, 4)
+TextLabel4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel4.BorderSizePixel = 2
+TextLabel4.Size = UDim2.new(0, 65, 0, 24)
+TextLabel4.Font = Enum.Font.SourceSans
+TextLabel4.Text = "Fake JJSploit"
+TextLabel4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel4.TextSize = 13.000
+TextLabel4.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/imnotcooI/ghhfwerhgtrghbvcvcfdfgdgd/main/Script32439854"))()
+end)
+
+TextLabel5.Name = "TextLabel5"
+TextLabel5.Parent = Frame
+TextLabel5.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel5.BorderSizePixel = 2
+TextLabel5.Position = UDim2.new(0, 0, 0.045, 0)
+TextLabel5.Size = UDim2.new(0, 104, 0, 18)
+TextLabel5.Font = Enum.Font.SourceSans
+TextLabel5.Text = "Shop"
+TextLabel5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel5.TextSize = 14.000
+TextLabel5.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-211.462997, -0.516056061, -168.038712, 0.922741413, 0.0649875775, -0.379901528, -6.78934157e-07, 0.985682309, 0.168613464, 0.385419905, -0.155586362, 0.909529746)
+end)
+
+TextLabel6.Name = "TextLabel6"
+TextLabel6.Parent = Frame
+TextLabel6.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel6.BorderSizePixel = 2
+TextLabel6.Position = UDim2.new(0, 0, 0.045, 30)
+TextLabel6.Size = UDim2.new(0, 104, 0, 18)
+TextLabel6.Font = Enum.Font.SourceSans
+TextLabel6.Text = "Spawn"
+TextLabel6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel6.TextSize = 14.000
+TextLabel6.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-315.690002, 4.48918343, 101.143616, 0.276224136, 0.142219663, -0.950512409, 3.16649675e-08, 0.988990843, 0.147976965, 0.961093366, -0.0408748426, 0.273183167)
+end)
+
+TextLabel7.Name = "TextLabel7"
+TextLabel7.Parent = Frame
+TextLabel7.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel7.BorderSizePixel = 2
+TextLabel7.Position = UDim2.new(0, 0, 0.045, 60)
+TextLabel7.Size = UDim2.new(0, 104, 0, 18)
+TextLabel7.Font = Enum.Font.SourceSans
+TextLabel7.Text = "Goto 先生"
+TextLabel7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel7.TextSize = 14.000
+TextLabel7.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(49.4052925, 30.1744957, 432.567749, 0.220089972, 0.150131762, -0.963857293, -2.96160579e-07, 0.988085508, 0.153905511, 0.975479603, -0.0338727683, 0.217467755)
+end)
+
+TextLabel8.Name = "TextLabel8"
+TextLabel8.Parent = Frame
+TextLabel8.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel8.BorderSizePixel = 2
+TextLabel8.Position = UDim2.new(0, 0, 0.045, 90)
+TextLabel8.Size = UDim2.new(0, 104, 0, 18)
+TextLabel8.Font = Enum.Font.SourceSans
+TextLabel8.Text = "Godly Punching Bag"
+TextLabel8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel8.TextSize = 13.000
+TextLabel8.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(296.470734, -79.8282166, 5.26116371, -0.114891998, -0.178264871, 0.977252066, 2.8219074e-07, 0.983766496, 0.179453239, -0.993377924, 0.0206179954, -0.113026865)
+end)
+
+TextLabel9.Name = "TextLabel9"
+TextLabel9.Parent = Frame
+TextLabel9.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel9.BorderSizePixel = 2
+TextLabel9.Position = UDim2.new(0, 0, 0.045, 120)
+TextLabel9.Size = UDim2.new(0, 104, 0, 18)
+TextLabel9.Font = Enum.Font.SourceSans
+TextLabel9.Text = "Hidden Punching Dummy"
+TextLabel9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel9.TextSize = 10.000
+TextLabel9.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(266.037048, -7.0049963, -410.232025, -0.822247446, 0.094216682, -0.56127733, -3.66941094e-07, 0.986202121, 0.165545613, 0.569130123, 0.136119664, -0.810902119)
+end)
+
+TextLabel1b.Name = "TextLabel1b"
+TextLabel1b.Parent = Frame
+TextLabel1b.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel1b.BorderSizePixel = 2
+TextLabel1b.Position = UDim2.new(0, 0, 0.045, 150)
+TextLabel1b.Size = UDim2.new(0, 104, 0, 18)
+TextLabel1b.Font = Enum.Font.SourceSans
+TextLabel1b.Text = "Slimey Katana"
+TextLabel1b.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel1b.TextSize = 14.000
+TextLabel1b.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-344.707397, -32.0110703, 90.7393188, 0.992095053, -0.0216327906, 0.123609416, -3.1478703e-07, 0.985028505, 0.172391653, -0.125488132, -0.171028972, 0.977241993)
+end)
+
+TextLabel2b.Name = "TextLabel2b"
+TextLabel2b.Parent = Frame
+TextLabel2b.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel2b.BorderSizePixel = 2
+TextLabel2b.Position = UDim2.new(0, 0, 0.045, 180)
+TextLabel2b.Size = UDim2.new(0, 104, 0, 18)
+TextLabel2b.Font = Enum.Font.SourceSans
+TextLabel2b.Text = "Rainbow Katana"
+TextLabel2b.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2b.TextSize = 14.000
+TextLabel2b.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-122.91465, -265.698639, 244.707062, 0.99999994, 5.27873635e-05, -0.000339090824, -3.22237611e-07, 0.988250434, 0.152843088, 0.00034314394, -0.152843088, 0.988250434)
+end)
+
+TextLabel3b.Name = "TextLabel3b"
+TextLabel3b.Parent = Frame
+TextLabel3b.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel3b.BorderSizePixel = 2
+TextLabel3b.Position = UDim2.new(0, 0, 0.045, 210)
+TextLabel3b.Size = UDim2.new(0, 104, 0, 18)
+TextLabel3b.Font = Enum.Font.SourceSans
+TextLabel3b.Text = "X Katana"
+TextLabel3b.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel3b.TextSize = 14.000
+TextLabel3b.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-496.945404, -69.7532578, -245.831863, 0.00848069787, 0.166355476, -0.986029387, -2.89641321e-07, 0.986064911, 0.166361466, 0.999964058, -0.00141053274, 0.00836254656)
+end)
+
+TextLabel4b.Name = "TextLabel4b"
+TextLabel4b.Parent = Frame
+TextLabel4b.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel4b.BorderSizePixel = 2
+TextLabel4b.Position = UDim2.new(0, 0, 0.045, 240)
+TextLabel4b.Size = UDim2.new(0, 104, 0, 18)
+TextLabel4b.Font = Enum.Font.SourceSans
+TextLabel4b.Text = "Santa Katana"
+TextLabel4b.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel4b.TextSize = 14.000
+TextLabel4b.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1035.46619, -814.518311, 7418.99219, -0.727329731, -0.121243514, 0.675493598, 2.04890966e-08, 0.984270871, 0.176665604, -0.686288357, 0.128494129, -0.715889513)
+end)
+
+TextLabel5b.Name = "TextLabel5b"
+TextLabel5b.Parent = Frame
+TextLabel5b.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel5b.BorderSizePixel = 2
+TextLabel5b.Position = UDim2.new(0, 0, 0.045, 270)
+TextLabel5b.Size = UDim2.new(0, 104, 0, 18)
+TextLabel5b.Font = Enum.Font.SourceSans
+TextLabel5b.Text = "OOF Katana"
+TextLabel5b.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel5b.TextSize = 14.000
+TextLabel5b.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3350.94629, 76.3340302, -11.9226513, 0.00282332301, 0.167996436, -0.985783458, 1.3038516e-08, 0.985787511, 0.167997107, 0.999995947, -0.000474333763, 0.00278322399)
+end)
+
+TextLabel6b.Name = "TextLabel6b"
+TextLabel6b.Parent = Frame
+TextLabel6b.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel6b.BorderSizePixel = 2
+TextLabel6b.Position = UDim2.new(0, 0, 0.045, 300)
+TextLabel6b.Size = UDim2.new(0, 104, 0, 18)
+TextLabel6b.Font = Enum.Font.SourceSans
+TextLabel6b.Text = "Punching Bags"
+TextLabel6b.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel6b.TextSize = 14.000
+TextLabel6b.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-230.784927, 48.3540649, 174.873352, -0.80206418, 0.0783364475, -0.592077971, -8.38190317e-09, 0.991360545, 0.13116461, 0.597237825, 0.105202451, -0.795134842)
+end)
+
+TextLabel7b.Name = "TextLabel7b"
+TextLabel7b.Parent = Frame
+TextLabel7b.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel7b.BorderSizePixel = 2
+TextLabel7b.Position = UDim2.new(0, 0, 0.045, 330)
+TextLabel7b.Size = UDim2.new(0, 104, 0, 18)
+TextLabel7b.Font = Enum.Font.SourceSans
+TextLabel7b.Text = "Punching Bags 2"
+TextLabel7b.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel7b.TextSize = 14.000
+TextLabel7b.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(209.076477, 33.3496399, 99.0897827, -0.13894026, 0.14869979, -0.979072988, -2.84984708e-07, 0.988662362, 0.150156245, 0.990300715, 0.0208630208, -0.137364954)
+end)
+
+TextLabel8b.Name = "TextLabel8b"
+TextLabel8b.Parent = Frame
+TextLabel8b.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel8b.BorderSizePixel = 2
+TextLabel8b.Position = UDim2.new(0, 0, 0.045, 360)
+TextLabel8b.Size = UDim2.new(0, 104, 0, 18)
+TextLabel8b.Font = Enum.Font.SourceSans
+TextLabel8b.Text = "Punching Dummies"
+TextLabel8b.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel8b.TextSize = 14.000
+TextLabel8b.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-171.234955, -4.11036968, -15.8576546, 0.726054013, 0.100524157, -0.680250227, -2.37487257e-07, 0.989256918, 0.14618741, 0.687637568, -0.106139787, 0.71825403)
+end)
+
+TextLabel9b.Name = "TextLabel9b"
+TextLabel9b.Parent = Frame
+TextLabel9b.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel9b.BorderSizePixel = 2
+TextLabel9b.Position = UDim2.new(0, 0, 0.045, 390)
+TextLabel9b.Size = UDim2.new(0, 104, 0, 18)
+TextLabel9b.Font = Enum.Font.SourceSans
+TextLabel9b.Text = "Random Ice Block (Santa)"
+TextLabel9b.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel9b.TextSize = 10.000
+TextLabel9b.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1036.34009, -780.991699, 7419.35596, 0.999937236, -0.0014815554, 0.0111016333, -5.30853868e-08, 0.99121207, 0.132282913, -0.0112000108, -0.132274628, 0.991149843)
+end)
+
+TextLabel1c.Name = "TextLabel1c"
+TextLabel1c.Parent = Frame
+TextLabel1c.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel1c.BorderSizePixel = 2
+TextLabel1c.Position = UDim2.new(0, 175, 0.045, 0)
+TextLabel1c.Size = UDim2.new(0, 104, 0, 18)
+TextLabel1c.Font = Enum.Font.SourceSans
+TextLabel1c.Text = "Invisible Neptas"
+TextLabel1c.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel1c.TextSize = 14.000
+TextLabel1c.MouseButton1Down:connect(function()
+    local original = game.Players.LocalPlayer.Character["Neptas"]
+    local copy = original:Clone()
+    copy.Parent = original.Parent
+    copy.Name = "Invisible Neptas"
+end)
+
+TextLabel2c.Name = "TextLabel2c"
+TextLabel2c.Parent = Frame
+TextLabel2c.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel2c.BorderSizePixel = 2
+TextLabel2c.Position = UDim2.new(0, 175, 0.045, 30)
+TextLabel2c.Size = UDim2.new(0, 104, 0, 18)
+TextLabel2c.Font = Enum.Font.SourceSans
+TextLabel2c.Text = "Invisible BloodyHeart"
+TextLabel2c.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2c.TextSize = 12.000
+TextLabel2c.MouseButton1Down:connect(function()
+    local original = game.Players.LocalPlayer.Character["Bloody Heart"]
+    local copy = original:Clone()
+    copy.Parent = original.Parent
+    copy.Name = "Invisible Bloody Heart"
+end)
+
+TextLabel3c.Name = "TextLabel3c"
+TextLabel3c.Parent = Frame
+TextLabel3c.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel3c.BorderSizePixel = 2
+TextLabel3c.Position = UDim2.new(0, 175, 0.045, 60)
+TextLabel3c.Size = UDim2.new(0, 104, 0, 18)
+TextLabel3c.Font = Enum.Font.SourceSans
+TextLabel3c.Text = "Invisible Spirit Of Life"
+TextLabel3c.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel3c.TextSize = 12.000
+TextLabel3c.MouseButton1Down:connect(function()
+    local original = game.Players.LocalPlayer.Character["Spirt Of Life"]
+    local copy = original:Clone()
+    copy.Parent = original.Parent
+    copy.Name = "Invisible Spirit Of Life"
+end)
+
+TextLabel4c.Name = "TextLabel4c"
+TextLabel4c.Parent = Frame
+TextLabel4c.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel4c.BorderSizePixel = 2
+TextLabel4c.Position = UDim2.new(0, 175, 0.045, 90)
+TextLabel4c.Size = UDim2.new(0, 104, 0, 18)
+TextLabel4c.Font = Enum.Font.SourceSans
+TextLabel4c.Text = "Super Punch (BRAZIL)"
+TextLabel4c.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel4c.TextSize = 12.000
+TextLabel4c.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.PlayerGui.Punch.Configuration.Knock_Force:Destroy()
+wait(0.2)
+local myPE = Instance.new("IntValue")
+myPE.Parent = game.Players.LocalPlayer.PlayerGui.Punch.Configuration
+wait(0.2)
+game.Players["LocalPlayer"]["PlayerGui"]["Punch"]["Configuration"]["Value"].Name = "Knock_Force"
+wait(0.2)
+game.Players.LocalPlayer.PlayerGui.Punch.Configuration.Knock_Force.Value = 800
+end)
+TextLabel5c.Name = "TextLabel5c"
+TextLabel5c.Parent = Frame
+TextLabel5c.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel5c.BorderSizePixel = 2
+TextLabel5c.Position = UDim2.new(0, 175, 0.045, 120)
+TextLabel5c.Size = UDim2.new(0, 104, 0, 18)
+TextLabel5c.Font = Enum.Font.SourceSans
+TextLabel5c.Text = "GodMode"
+TextLabel5c.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel5c.TextSize = 14.000
+TextLabel5c.MouseButton1Down:connect(function()
+    while true do
+fireclickdetector(game.Workspace["Default White"]["Model"]["Equip"].ClickDetector)
+wait(0)
+fireclickdetector(game.Workspace["Black Ninja"]["Model"]["Equip"].ClickDetector)
+wait(0)
+end
+end)
+TextLabel6c.Name = "TextLabel6c"
+TextLabel6c.Parent = Frame
+TextLabel6c.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel6c.BorderSizePixel = 2
+TextLabel6c.Position = UDim2.new(0, 175, 0.045, 150)
+TextLabel6c.Size = UDim2.new(0, 104, 0, 18)
+TextLabel6c.Font = Enum.Font.SourceSans
+TextLabel6c.Text = "Secondary GodMode"
+TextLabel6c.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel6c.TextSize = 12.000
+TextLabel6c.MouseButton1Down:connect(function()
+game.Workspace["Default White"]["Model"]:Destroy()
+     game.Workspace["Black Ninja"]["Model"]:Destroy()
+    wait(1)
+    
+    while true do
+fireclickdetector(game.Workspace["Default White"]["Model"]["Equip"].ClickDetector)
+wait(0)
+fireclickdetector(game.Workspace["Black Ninja"]["Model"]["Equip"].ClickDetector)
+wait(0)
+end
+end)
+TextLabel7c.Name = "TextLabel7c"
+TextLabel7c.Parent = Frame
+TextLabel7c.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel7c.BorderSizePixel = 2
+TextLabel7c.Position = UDim2.new(0, 175, 0.045, 180)
+TextLabel7c.Size = UDim2.new(0, 104, 0, 18)
+TextLabel7c.Font = Enum.Font.SourceSans
+TextLabel7c.Text = "Stop GodMode"
+TextLabel7c.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel7c.TextSize = 14.000
+TextLabel7c.MouseButton1Down:connect(function()
+    wait(0.2)
+game.Workspace["Default White"]:Destroy()
+game.Workspace["Black Ninja"]:Destroy()
+wait(0.2)
+game:GetService("StarterGui"):SetCore("SendNotification",{     
+Title = "Stop GodMode",     
+Text = "Rejoin if you want GodMode to work again (Trying to fix this)",
+Button1 = "Okay",Button2 = "Dang it",     Duration = 50, })
+wait(0.5)
+game:GetService("StarterGui"):SetCore("SendNotification",{     
+Title = "...",     
+Text = "...",
+Button1 = "...",Button2 = "...",     Duration = 50, })
+wait(0.5)
+game:GetService("StarterGui"):SetCore("SendNotification",{     
+Title = "...",     
+Text = "...",
+Button1 = "...",Button2 = "...",     Duration = 50, })
+end)
+
+TextLabel8c.Name = "TextLabel8c"
+TextLabel8c.Parent = Frame
+TextLabel8c.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel8c.BorderSizePixel = 2
+TextLabel8c.Position = UDim2.new(0, 175, 0.045, 210)
+TextLabel8c.Size = UDim2.new(0, 104, 0, 18)
+TextLabel8c.Font = Enum.Font.SourceSans
+TextLabel8c.Text = "Neptas | Ancient Blue Katana"
+TextLabel8c.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel8c.TextSize = 9.000
+TextLabel8c.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character["Neptas"]["Configuration"]["Swing_Speed"].Value = 0
+game.Players.LocalPlayer.Character["Neptas"]["Handle"]["TrailElectricity"]:Destroy()
+game.Players.LocalPlayer.Character["Neptas"]["Configuration"]["Knock_Force"].Value = 50
+game.Players.LocalPlayer.Character.Neptas.Name = "Ancient Blue Katana"
+wait(0.1)
+game.Players.LocalPlayer.Character["Ancient Blue Katana"]["Handle"]["UnsheathSound"].SoundId = 0
+end)
+
+TextLabel9c.Name = "TextLabel9c"
+TextLabel9c.Parent = Frame
+TextLabel9c.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel9c.BorderSizePixel = 2
+TextLabel9c.Position = UDim2.new(0, 175, 0.045, 240)
+TextLabel9c.Size = UDim2.new(0, 104, 0, 18)
+TextLabel9c.Font = Enum.Font.SourceSans
+TextLabel9c.Text = "Bloody SwingSpeed & 0 KnockForce"
+TextLabel9c.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel9c.TextSize = 8.000
+TextLabel9c.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character["Bloody Heart"]["Configuration"]["Knock_Force"].Value = 0
+game.Players.LocalPlayer.Character["Bloody Heart"]["Handle"]["ParticleEmitter"]:Destroy()
+game.Players.LocalPlayer.Character["Bloody Heart"]["Configuration"]["Swing_Speed"].Value = 0
+end)
+
+TextLabel1d.Name = "TextLabel1d"
+TextLabel1d.Parent = Frame
+TextLabel1d.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel1d.BorderSizePixel = 2
+TextLabel1d.Position = UDim2.new(0, 175, 0.045, 270)
+TextLabel1d.Size = UDim2.new(0, 104, 0, 18)
+TextLabel1d.Font = Enum.Font.SourceSans
+TextLabel1d.Text = "Spirit SwingSpeed"
+TextLabel1d.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel1d.TextSize = 14.000
+TextLabel1d.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character["Spirt Of Life"]["Handle"]["ParticleEmitter"]:Destroy()
+game.Players.LocalPlayer.Character["Spirt Of Life"]["Configuration"]["Swing_Speed"].Value = 0
+end)
+
+TextLabel2d.Name = "TextLabel2d"
+TextLabel2d.Parent = Frame
+TextLabel2d.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel2d.BorderSizePixel = 2
+TextLabel2d.Position = UDim2.new(0, 175, 0.045, 300)
+TextLabel2d.Size = UDim2.new(0, 104, 0, 18)
+TextLabel2d.Font = Enum.Font.SourceSans
+TextLabel2d.Text = "Die Without Ragdoll"
+TextLabel2d.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2d.TextSize = 14.000
+TextLabel2d.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.Head:Destroy()
+end)
+
+TextLabel3d.Name = "TextLabel3d"
+TextLabel3d.Parent = Frame
+TextLabel3d.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel3d.BorderSizePixel = 2
+TextLabel3d.Position = UDim2.new(0, 175, 0.045, 330)
+TextLabel3d.Size = UDim2.new(0, 104, 0, 18)
+TextLabel3d.Font = Enum.Font.SourceSans
+TextLabel3d.Text = "Anti Afk"
+TextLabel3d.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel3d.TextSize = 14.000
+TextLabel3d.MouseButton1Down:connect(function()
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+wait(1)
+vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+end)
+end)
+
+TextLabel4d.Name = "TextLabel4d"
+TextLabel4d.Parent = Frame
+TextLabel4d.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel4d.BorderSizePixel = 2
+TextLabel4d.Position = UDim2.new(0, 175, 0.045, 330)
+TextLabel4d.Size = UDim2.new(0, 104, 0, 18)
+TextLabel4d.Font = Enum.Font.SourceSans
+TextLabel4d.Text = "Anti Afk"
+TextLabel4d.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel4d.TextSize = 14.000
+TextLabel4d.MouseButton1Down:connect(function()
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+wait(1)
+vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+end)
+end)
+
+TextLabel5d.Name = "TextLabel5d"
+TextLabel5d.Parent = Frame
+TextLabel5d.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel5d.BorderSizePixel = 2
+TextLabel5d.Position = UDim2.new(0, 175, 0.045, 360)
+TextLabel5d.Size = UDim2.new(0, 104, 0, 18)
+TextLabel5d.Font = Enum.Font.SourceSans
+TextLabel5d.Text = "Chi Farm (Z)"
+TextLabel5d.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel5d.TextSize = 14.000
+TextLabel5d.MouseButton1Down:connect(function()
+local A_1   = game:GetService("Workspace")["先生"].Humanoid
+local A_2   = "punch"
+local Event = game:GetService("ReplicatedStorage").Remotes.Damage
+
+local toggled = false
+local keys = "z"
+local plr = game:GetService("Players").LocalPlayer
+local mouse = plr:GetMouse()
+
+mouse.KeyDown:connect(function(key)
+    if key:lower() == keys then
+        toggled = not toggled
+        print(tostring(toggled))
+    end
+end)
+
+game:GetService('RunService').Stepped:connect(function()
+if toggled then
+Event:InvokeServer(A_1, A_2)
+end
+end)
+end)
+
+TextLabel6d.Name = "TextLabel6d"
+TextLabel6d.Parent = Frame
+TextLabel6d.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel6d.BorderSizePixel = 2
+TextLabel6d.Position = UDim2.new(0, 175, 0.045, 390)
+TextLabel6d.Size = UDim2.new(0, 104, 0, 18)
+TextLabel6d.Font = Enum.Font.SourceSans
+TextLabel6d.Text = "Afk Chi Farm"
+TextLabel6d.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel6d.TextSize = 14.000
+TextLabel6d.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/imnotcooI/levelscript/ff54e3268f921ca39056007d40ca7fdafc8c0732/NinjaSimulatorLevels"))()
+end)
+
+TextLabel7d.Name = "TextLabel7d"
+TextLabel7d.Parent = Frame
+TextLabel7d.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel7d.BorderSizePixel = 2
+TextLabel7d.Position = UDim2.new(0, 175, 0.045, 420)
+TextLabel7d.Size = UDim2.new(0, 104, 0, 18)
+TextLabel7d.Font = Enum.Font.SourceSans
+TextLabel7d.Text = "Kill All (WITH PVP)"
+TextLabel7d.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel7d.TextSize = 14.000
+TextLabel7d.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/imnotcooI/rdggnghfhfhghg/main/script3543645324"))()
+end)
+
+TextLabel8d.Name = "TextLabel8d"
+TextLabel8d.Parent = Frame
+TextLabel8d.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel8d.BorderSizePixel = 2
+TextLabel8d.Position = UDim2.new(0, 175, 0.045, 450)
+TextLabel8d.Size = UDim2.new(0, 104, 0, 18)
+TextLabel8d.Font = Enum.Font.SourceSans
+TextLabel8d.Text = "Annoy All (WITH PVP)"
+TextLabel8d.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel8d.TextSize = 13.000
+TextLabel8d.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/imnotcooI/TestGameScript/main/script45554"))()
+end)
+
+TextLabel9d.Name = "TextLabel9d"
+TextLabel9d.Parent = Frame
+TextLabel9d.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel9d.BorderSizePixel = 2
+TextLabel9d.Position = UDim2.new(0, 175, 0.045, 480)
+TextLabel9d.Size = UDim2.new(0, 104, 0, 18)
+TextLabel9d.Font = Enum.Font.SourceSans
+TextLabel9d.Text = "Frozen Heart AutoSwing"
+TextLabel9d.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel9d.TextSize = 12.000
+TextLabel9d.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character["Frozen Heart"].Configuration.Swing_Speed.Value = 0
+end)
+
+TextLabel1e.Name = "TextLabel1e"
+TextLabel1e.Parent = Frame
+TextLabel1e.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel1e.BorderSizePixel = 2
+TextLabel1e.Position = UDim2.new(0, 175, 0.045, 510)
+TextLabel1e.Size = UDim2.new(0, 104, 0, 18)
+TextLabel1e.Font = Enum.Font.SourceSans
+TextLabel1e.Text = "Ctrl + Click TP"
+TextLabel1e.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel1e.TextSize = 14.000
+TextLabel1e.MouseButton1Down:connect(function()
+local speed = 9999999
+local bodyvelocityenabled = true
+
+local Imput = game:GetService("UserInputService")
+local Plr = game.Players.LocalPlayer
+local Mouse = Plr:GetMouse()
+
+function To(position)
+local Chr = Plr.Character
+if Chr ~= nil then
+local ts = game:GetService("TweenService")
+local char = game.Players.LocalPlayer.Character
+local hm = char.HumanoidRootPart
+local dist = (hm.Position - Mouse.Hit.p).magnitude
+local tweenspeed = dist/tonumber(speed)
+local ti = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+local tp = {CFrame = CFrame.new(position)}
+ts:Create(hm, ti, tp):Play()
+if bodyvelocityenabled == true then
+local bv = Instance.new("BodyVelocity")
+bv.Parent = hm
+bv.MaxForce = Vector3.new(100000,100000,100000)
+bv.Velocity = Vector3.new(0,0,0)
+wait(tonumber(tweenspeed))
+bv:Destroy()
+end
+end
+end
+
+Imput.InputBegan:Connect(function(input)
+   if input.UserInputType == Enum.UserInputType.MouseButton1 and Imput:IsKeyDown(Enum.KeyCode.LeftControl) then
+       To(Mouse.Hit.p)
+   end
+end)
+end)
+
+TextLabel2e.Name = "TextLabel2e"
+TextLabel2e.Parent = Frame
+TextLabel2e.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel2e.BorderSizePixel = 2
+TextLabel2e.Position = UDim2.new(0, 175, 0.045, 540)
+TextLabel2e.Size = UDim2.new(0, 104, 0, 18)
+TextLabel2e.Font = Enum.Font.SourceSans
+TextLabel2e.Text = "TweenService Ctrl + Click TP"
+TextLabel2e.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2e.TextSize = 9.000
+TextLabel2e.MouseButton1Down:connect(function()
+local speed = 100
+local bodyvelocityenabled = true
+
+local Imput = game:GetService("UserInputService")
+local Plr = game.Players.LocalPlayer
+local Mouse = Plr:GetMouse()
+
+function To(position)
+local Chr = Plr.Character
+if Chr ~= nil then
+local ts = game:GetService("TweenService")
+local char = game.Players.LocalPlayer.Character
+local hm = char.HumanoidRootPart
+local dist = (hm.Position - Mouse.Hit.p).magnitude
+local tweenspeed = dist/tonumber(speed)
+local ti = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+local tp = {CFrame = CFrame.new(position)}
+ts:Create(hm, ti, tp):Play()
+if bodyvelocityenabled == true then
+local bv = Instance.new("BodyVelocity")
+bv.Parent = hm
+bv.MaxForce = Vector3.new(100000,100000,100000)
+bv.Velocity = Vector3.new(0,0,0)
+wait(tonumber(tweenspeed))
+bv:Destroy()
+end
+end
+end
+
+Imput.InputBegan:Connect(function(input)
+   if input.UserInputType == Enum.UserInputType.MouseButton1 and Imput:IsKeyDown(Enum.KeyCode.LeftControl) then
+       To(Mouse.Hit.p)
+   end
+end)
+end)
+
+TextLabel3e.Name = "TextLabel3e"
+TextLabel3e.Parent = Frame
+TextLabel3e.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel3e.BorderSizePixel = 2
+TextLabel3e.Position = UDim2.new(0, 175, 0.045, 570)
+TextLabel3e.Size = UDim2.new(0, 104, 0, 18)
+TextLabel3e.Font = Enum.Font.SourceSans
+TextLabel3e.Text = "Get Slimey Katana"
+TextLabel3e.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel3e.TextSize = 12.000
+TextLabel3e.MouseButton1Down:connect(function()
+fireclickdetector(game.Workspace.N.ClickDetector)
+end)
+
+TextLabel4e.Name = "TextLabel4e"
+TextLabel4e.Parent = Frame
+TextLabel4e.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel4e.BorderSizePixel = 2
+TextLabel4e.Position = UDim2.new(0, 175, 0.045, 600)
+TextLabel4e.Size = UDim2.new(0, 104, 0, 18)
+TextLabel4e.Font = Enum.Font.SourceSans
+TextLabel4e.Text = "Get Santa Katana (Kills)"
+TextLabel4e.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel4e.TextSize = 12.000
+TextLabel4e.MouseButton1Down:connect(function()
+fireclickdetector(game.Workspace.Santa.ClickDetector)
+end)
+
+TextLabel5e.Name = "TextLabel5e"
+TextLabel5e.Parent = Frame
+TextLabel5e.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel5e.BorderSizePixel = 2
+TextLabel5e.Position = UDim2.new(0, 175, 0.045, 630)
+TextLabel5e.Size = UDim2.new(0, 104, 0, 18)
+TextLabel5e.Font = Enum.Font.SourceSans
+TextLabel5e.Text = "Ctrl + Click Delete"
+TextLabel5e.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel5e.TextSize = 12.000
+TextLabel5e.MouseButton1Down:connect(function()
+local Plr = game:GetService("Players").LocalPlayer
+local Mouse = Plr:GetMouse()
+
+Mouse.Button1Down:connect(function()
+if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then return end
+if not Mouse.Target then return end
+Mouse.Target:Destroy()
+end)
+end)
+
+TextLabel6e.Name = "TextLabel6e"
+TextLabel6e.Parent = Frame
+TextLabel6e.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel6e.BorderSizePixel = 2
+TextLabel6e.Position = UDim2.new(0, 175, 0.045, 660)
+TextLabel6e.Size = UDim2.new(0, 104, 0, 18)
+TextLabel6e.Font = Enum.Font.SourceSans
+TextLabel6e.Text = "Night"
+TextLabel6e.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel6e.TextSize = 14.000
+TextLabel6e.MouseButton1Down:connect(function()
+local light = game.Lighting
+for i, v in pairs(light:GetChildren()) do
+	v:Destroy()
+end
+
+local ter = workspace.Terrain
+local color = Instance.new("ColorCorrectionEffect")
+local bloom = Instance.new("BloomEffect")
+local sun = Instance.new("SunRaysEffect")
+local blur = Instance.new("BlurEffect")
+
+color.Parent = light
+bloom.Parent = light
+sun.Parent = light
+blur.Parent = light
+
+-- enable or disable stuff
+
+local config = {
+
+	Terrain = true;
+	ColorCorrection = true;
+	Sun = true;
+	Lighting = true;
+	BloomEffect = true;
+	
+}
+
+-- settings {
+
+color.Enabled = false
+color.Contrast = 0.15
+color.Brightness = 0.1
+color.Saturation = 0.25
+color.TintColor = Color3.fromRGB(255, 222, 211)
+
+bloom.Enabled = false
+bloom.Intensity = 0.1
+
+sun.Enabled = false
+sun.Intensity = 0.2
+sun.Spread = 1
+
+bloom.Enabled = false
+bloom.Intensity = 0.05
+bloom.Size = 32
+bloom.Threshold = 1
+
+blur.Enabled = false
+blur.Size = 6
+
+-- settings }
+
+
+if config.ColorCorrection then
+	color.Enabled = true
+end
+
+
+if config.Sun then
+	sun.Enabled = true
+end
+
+
+if config.Terrain then
+	-- settings {
+	ter.WaterColor = Color3.fromRGB(10, 10, 24)
+	ter.WaterWaveSize = 0.15
+	ter.WaterWaveSpeed = 15
+	ter.WaterTransparency = .65
+	ter.WaterReflectance = 0.35
+	-- settings }
+end
+
+
+if config.Lighting then
+	-- settings {
+	light.Ambient = Color3.fromRGB(0, 0, 0)
+	light.Brightness = 4
+	light.ColorShift_Bottom = Color3.fromRGB(0, 0, 0)
+	light.ColorShift_Top = Color3.fromRGB(0, 0, 0)
+	light.ExposureCompensation = 0
+	light.FogColor = Color3.fromRGB(132, 132, 132)
+	light.GlobalShadows = true
+	light.OutdoorAmbient = Color3.fromRGB(112, 117, 128)
+	light.Outlines = false
+	-- settings }
+end
+game:GetService("Lighting").TimeOfDay = 5
+end)
+
+TextLabel7e.Name = "TextLabel7e"
+TextLabel7e.Parent = Frame
+TextLabel7e.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel7e.BorderSizePixel = 2
+TextLabel7e.Position = UDim2.new(0, 175, 0.045, 690)
+TextLabel7e.Size = UDim2.new(0, 104, 0, 18)
+TextLabel7e.Font = Enum.Font.SourceSans
+TextLabel7e.Text = "Rejoin"
+TextLabel7e.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel7e.TextSize = 12.000
+TextLabel7e.MouseButton1Down:connect(function()
+local ts = game:GetService("TeleportService")
+
+local p = game:GetService("Players").LocalPlayer
+
+ 
+
+ts:Teleport(game.PlaceId, p)
+end)
+
+TextLabel8e.Name = "TextLabel8e"
+TextLabel8e.Parent = Frame
+TextLabel8e.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel8e.BorderSizePixel = 2
+TextLabel8e.Position = UDim2.new(0, 175, 0.045, 720)
+TextLabel8e.Size = UDim2.new(0, 104, 0, 18)
+TextLabel8e.Font = Enum.Font.SourceSans
+TextLabel8e.Text = "PVP Toggle"
+TextLabel8e.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel8e.TextSize = 14.000
+TextLabel8e.MouseButton1Down:connect(function()
+game.ReplicatedStorage.Remotes.Pvp:InvokeServer(true)
+end)
+
+TextLabel9e.Name = "TextLabel9e"
+TextLabel9e.Parent = Frame
+TextLabel9e.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel9e.BorderSizePixel = 2
+TextLabel9e.Position = UDim2.new(0, 175, 0.045, 750)
+TextLabel9e.Size = UDim2.new(0, 104, 0, 18)
+TextLabel9e.Font = Enum.Font.SourceSans
+TextLabel9e.Text = "Delete PVP Text"
+TextLabel9e.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel9e.TextSize = 12.000
+TextLabel9e.MouseButton1Down:connect(function()
+game.ReplicatedStorage.Remotes.Pvp:InvokeServer(true)
+end)
