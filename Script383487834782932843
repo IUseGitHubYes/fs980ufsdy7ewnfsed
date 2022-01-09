@@ -57,6 +57,9 @@ local TextLabel5f = Instance.new("TextButton")
 local TextLabel6f = Instance.new("TextButton")
 local TextLabel7f = Instance.new("TextButton")
 local TextLabel8f = Instance.new("TextButton")
+local TextLabel9f = Instance.new("TextButton")
+local TextLabel1g = Instance.new("TextButton")
+local TextLabel2g = Instance.new("TextButton")
 
 ScreenGui.Parent = game.CoreGui
 
@@ -631,7 +634,27 @@ TextLabel8d.Text = "Annoy All (WITH PVP)"
 TextLabel8d.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel8d.TextSize = 13.000
 TextLabel8d.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/imnotcooI/TestGameScript/main/script45554"))()
+while true do
+    for i,v in pairs(game.Players:GetChildren()) do
+plrs = v.Name
+lp = game.Players.LocalPlayer
+if v.Name ~= lp.Name then
+game.ReplicatedStorage.Remotes.Knockback:InvokeServer(Workspace:FindFirstChild(plrs).Humanoid, 40, 0.1)
+end
+end
+end
+-------
+wait(5)
+-------
+while true do
+    for i,v in pairs(game.Players:GetChildren()) do
+plrs = v.Name
+lp = game.Players.LocalPlayer
+if v.Name ~= lp.Name then
+game.ReplicatedStorage.Remotes.Knockback:InvokeServer(Workspace:FindFirstChild(plrs).Humanoid, 40, 0.1)
+end
+end
+end
 end)
 
 TextLabel9d.Name = "TextLabel9d"
@@ -939,4 +962,158 @@ TextLabel9e.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel9e.TextSize = 12.000
 TextLabel9e.MouseButton1Down:connect(function()
 game.ReplicatedStorage.Remotes.Pvp:InvokeServer(true)
+end)
+
+TextLabel1f.Name = "TextLabel1f"
+TextLabel1f.Parent = Frame
+TextLabel1f.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel1f.BorderSizePixel = 2
+TextLabel1f.Position = UDim2.new(0, 175, 0.045, 780)
+TextLabel1f.Size = UDim2.new(0, 104, 0, 18)
+TextLabel1f.Font = Enum.Font.SourceSans
+TextLabel1f.Text = "Get Spirit Of Life"
+TextLabel1f.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel1f.TextSize = 12.000
+TextLabel1f.MouseButton1Down:connect(function()
+fireclickdetector(game.Workspace["Spirt Sword Giver"].ClickDetector)
+end)
+
+TextLabel2f.Name = "TextLabel2f"
+TextLabel2f.Parent = Frame
+TextLabel2f.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel2f.BorderSizePixel = 2
+TextLabel2f.Position = UDim2.new(0, 175, 0.045, 810)
+TextLabel2f.Size = UDim2.new(0, 104, 0, 18)
+TextLabel2f.Font = Enum.Font.SourceSans
+TextLabel2f.Text = "Get Frozen Heart"
+TextLabel2f.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2f.TextSize = 12.000
+TextLabel2f.MouseButton1Down:connect(function()
+fireclickdetector(game.Workspace["Frozen Heart"].ClickDetector)
+end)
+
+TextLabel3f.Name = "TextLabel3f"
+TextLabel3f.Parent = Frame
+TextLabel3f.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel3f.BorderSizePixel = 2
+TextLabel3f.Position = UDim2.new(0, 175, 0.045, 840)
+TextLabel3f.Size = UDim2.new(0, 104, 0, 18)
+TextLabel3f.Font = Enum.Font.SourceSans
+TextLabel3f.Text = "Get Katana"
+TextLabel3f.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel3f.TextSize = 14.000
+TextLabel3f.MouseButton1Down:connect(function()
+fireclickdetector(game.Workspace["Give Katana"].ClickDetector)
+end)
+
+TextLabel4f.Name = "TextLabel4f"
+TextLabel4f.Parent = Frame
+TextLabel4f.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel4f.BorderSizePixel = 2
+TextLabel4f.Position = UDim2.new(0, 175, 0.045, 870)
+TextLabel4f.Size = UDim2.new(0, 104, 0, 18)
+TextLabel4f.Font = Enum.Font.SourceSans
+TextLabel4f.Text = "Get Ronin Katana"
+TextLabel4f.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel4f.TextSize = 12.000
+TextLabel4f.MouseButton1Down:connect(function()
+fireclickdetector(game.Workspace["Give Ronin Katana"].ClickDetector)
+end)
+
+TextLabel5f.Name = "TextLabel5f"
+TextLabel5f.Parent = Frame
+TextLabel5f.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel5f.BorderSizePixel = 2
+TextLabel5f.Position = UDim2.new(0, 175, 0.045, 900)
+TextLabel5f.Size = UDim2.new(0, 104, 0, 18)
+TextLabel5f.Font = Enum.Font.SourceSans
+TextLabel5f.Text = "Get Black Iron Katana"
+TextLabel5f.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel5f.TextSize = 12.000
+TextLabel5f.MouseButton1Down:connect(function()
+fireclickdetector(game.Workspace["Give BI Katana"].ClickDetector)
+end)
+
+TextLabel6f.Name = "TextLabel6f"
+TextLabel6f.Parent = Frame
+TextLabel6f.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel6f.BorderSizePixel = 2
+TextLabel6f.Position = UDim2.new(0, 175, 0.045, 930)
+TextLabel6f.Size = UDim2.new(0, 104, 0, 18)
+TextLabel6f.Font = Enum.Font.SourceSans
+TextLabel6f.Text = "Get BlueSteel Katana"
+TextLabel6f.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel6f.TextSize = 12.000
+TextLabel6f.MouseButton1Down:connect(function()
+fireclickdetector(game.Workspace["Give BS Katana"].ClickDetector)
+end)
+
+TextLabel7f.Name = "TextLabel7f"
+TextLabel7f.Parent = Frame
+TextLabel7f.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel7f.BorderSizePixel = 2
+TextLabel7f.Position = UDim2.new(0, 175, 0.045, 960)
+TextLabel7f.Size = UDim2.new(0, 104, 0, 18)
+TextLabel7f.Font = Enum.Font.SourceSans
+TextLabel7f.Text = "Get Golden Katana"
+TextLabel7f.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel7f.TextSize = 12.000
+TextLabel7f.MouseButton1Down:connect(function()
+fireclickdetector(game.Workspace["Give Golden Snake Katana"].ClickDetector)
+end)
+
+TextLabel8f.Name = "TextLabel8f"
+TextLabel8f.Parent = Frame
+TextLabel8f.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel8f.BorderSizePixel = 2
+TextLabel8f.Position = UDim2.new(0, 175, 0.045, 990)
+TextLabel8f.Size = UDim2.new(0, 104, 0, 18)
+TextLabel8f.Font = Enum.Font.SourceSans
+TextLabel8f.Text = "Get Ancient Steel Katana"
+TextLabel8f.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel8f.TextSize = 12.000
+TextLabel8f.MouseButton1Down:connect(function()
+fireclickdetector(game.Workspace["AncientSteel"].ClickDetector)
+end)
+
+TextLabel9f.Name = "TextLabel9f"
+TextLabel9f.Parent = Frame
+TextLabel9f.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel9f.BorderSizePixel = 2
+TextLabel9f.Position = UDim2.new(0, 175, 0.045, 1020)
+TextLabel9f.Size = UDim2.new(0, 104, 0, 18)
+TextLabel9f.Font = Enum.Font.SourceSans
+TextLabel9f.Text = "Get Ancient Iron Katana"
+TextLabel9f.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel9f.TextSize = 12.000
+TextLabel9f.MouseButton1Down:connect(function()
+fireclickdetector(game.Workspace["AncientIron"].ClickDetector)
+end)
+
+TextLabel1g.Name = "TextLabel1g"
+TextLabel1g.Parent = Frame
+TextLabel1g.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel1g.BorderSizePixel = 2
+TextLabel1g.Position = UDim2.new(0, 175, 0.045, 1050)
+TextLabel1g.Size = UDim2.new(0, 104, 0, 18)
+TextLabel1g.Font = Enum.Font.SourceSans
+TextLabel1g.Text = "Get Origin Blade"
+TextLabel1g.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel1g.TextSize = 12.000
+TextLabel1g.MouseButton1Down:connect(function()
+fireclickdetector(game.Workspace["OriginBlade"].ClickDetector)
+end)
+
+TextLabel2g.Name = "TextLabel2g"
+TextLabel2g.Parent = Frame
+TextLabel2g.BackgroundColor3 = Color3.fromRGB(121, 181, 181)
+TextLabel2g.BorderSizePixel = 2
+TextLabel2g.Position = UDim2.new(0, 175, 0.045, 1080)
+TextLabel2g.Size = UDim2.new(0, 104, 0, 18)
+TextLabel2g.Font = Enum.Font.SourceSans
+TextLabel2g.Text = "Get X Katana Or CloudDust"
+TextLabel2g.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel2g.TextSize = 10.000
+TextLabel2g.MouseButton1Down:connect(function()
+fireclickdetector(game.Workspace["CloudDust"].ClickDetector)
 end)
